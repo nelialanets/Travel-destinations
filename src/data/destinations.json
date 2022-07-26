@@ -1,0 +1,38 @@
+[
+    {
+        "img":"../images/image1.jpg",
+        "name":"Australia",
+        "button":"View Destination"
+    },
+
+    {
+        "img":"../images/image2.jpg",
+        "name":"Australia",
+        "button":"View Destination"
+    },
+
+    {
+        "img":"../images/image3.jpg",
+        "name":"Australia",
+        "button":"View Destination"
+    },
+
+    {
+        "img":"../images/image4.jpg",
+        "name":"Australia",
+        "button":"View Destination"
+    },
+
+    {
+        "img":"../images/image5.jpg",
+        "name":"Australia",
+        "button":"View Destination"
+    },
+
+    {
+        "img":"../images/image5.jpg",
+        "name":"Australia",
+        "button":"View Destination"
+    }
+
+]
