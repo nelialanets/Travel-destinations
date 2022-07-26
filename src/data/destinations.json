@@ -2,24 +2,27 @@
     {
         "img":"../images/image1.jpg",
         "name":"Australia",
+        "alt":"img",
         "button":"View Destination"
     },
 
     {
         "img":"../images/image2.jpg",
-        "name":"Australia",
+        "name":"Tahity",
+        "alt":"img",
         "button":"View Destination"
     },
 
     {
         "img":"../images/image3.jpg",
-        "name":"Australia",
+        "name":"Hawaii",
+        "alt":"img",
         "button":"View Destination"
     },
 
     {
         "img":"../images/image4.jpg",
-        "name":"Australia",
+        "name":"Bali",
         "button":"View Destination"
     },
 
@@ -31,7 +34,7 @@
 
     {
         "img":"../images/image5.jpg",
-        "name":"Australia",
+        "name":"Mexico",
         "button":"View Destination"
     }
 

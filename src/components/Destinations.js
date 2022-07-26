@@ -1,12 +1,53 @@
 import React from "react";
 import styled from "styled-components";
+import { useStaticQuery, graphql } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image"
+
+const Destinations=()=>{
+
+    const data = useStaticQuery(graphql`
+    query{
+        allDestinationsJson{
+            edges {
+              node {
+                alt
+                button
+                name
+                img {
+                  childrenImageSharp {
+                    fluid {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+    
+    `)
+
+function getDestinations(data) {
+const destinationsArr=[]
+
+data.allDestinationsJson.edges.forEach((item, index)=>{
+    destinationsArr.push(
+        <div key={index}>
+            <StaticImage  src={item.node.img.childrenImageSharp.fluid.src}
+            fluid={item.node.img.childrenImageSharp.fluid}
+             />
+        </div>
+    )
+})
+  return destinationsArr 
+}
 
 
-const Destinations =()=>{
+
     return(
 <DestinationsContainer>
     <DestinationsHeading>Headind</DestinationsHeading>
-    <DestinationsWrapper></DestinationsWrapper>
+    <DestinationsWrapper>{getDestinations(data)}</DestinationsWrapper>
 </DestinationsContainer>
 
     )
