@@ -3,7 +3,7 @@
 
 ## About
 
-An interactive app that is designed for surfers and people who like to explore remote tropical destination points around the world.
+An interactive and bobile responcive app that is designed for surfers and people who like to explore remote tropical destination points around the world.
 
 
 ## Technologies Used
