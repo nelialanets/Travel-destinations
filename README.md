@@ -7,8 +7,9 @@ An interactive app that is designed for surfers and people who like to explore r
 
 
 ## Technologies Used
+
 Language      | Framework     | API's       | CSS                 | 
-------------- | -------------  ------------ | --------------------|
+------------- | ------------- |------------ | --------------------|
 JavaScript    | React, Gatsby | Graphql     |   styled components |
 
 ## User Stories
