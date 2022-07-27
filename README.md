@@ -1,11 +1,22 @@
 
-Travel Destinations APP:
+# Travel Destinations APP:
 
-An interactive app that is designed for surfers and people who like to explore remote island and beach points around the world.
+## About
+
+An interactive app that is designed for surfers and people who like to explore remote tropical destination points around the world.
 
 
-User Stories:
-As a User(AAU): I will be alble to navigate through the Navbar to move from a page to page
+## Technologies Used
+Language      | Framework     |    | API's         | CSS                 | 
+------------- | ------------- |    | ------------  | --------------------|
+JavaScript    | React, Gatsby |    | Graphql       |   styled components |
+
+## User Stories
+AAU (As A User), I want to see current list of distinations around the world.
+AAU, I will be able to navigate thought the manue/navigations tabs to mome from one page to another
+AAU, I will be able to search for places using a search bar
+AAU, I will be able to review comprehensive inforation about a destination place 
+
 
 
 
