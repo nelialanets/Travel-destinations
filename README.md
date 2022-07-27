@@ -7,9 +7,9 @@ An interactive app that is designed for surfers and people who like to explore r
 
 
 ## Technologies Used
-Language      | Framework     |    | API's         | CSS                 | 
-------------- | ------------- |    | ------------  | --------------------|
-JavaScript    | React, Gatsby |    | Graphql       |   styled components |
+Language      | Framework     | API's       | CSS                 | 
+------------- | -------------  ------------ | --------------------|
+JavaScript    | React, Gatsby | Graphql     |   styled components |
 
 ## User Stories
 AAU (As A User), I want to see current list of distinations around the world.
