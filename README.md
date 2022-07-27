@@ -1,3 +1,33 @@
+
+Travel Destinations APP:
+
+An interactive app that is designed for surfers and people who like to explore remote island and beach points around the world.
+
+
+User Stories:
+As a User(AAU): I will be alble to navigate through the Navbar to move from a page to page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
