@@ -13,7 +13,7 @@ const Hero = () => {
     <HeroItems>
     <H1tag>The advanture awaits for you </H1tag>
     <Ptag> Explore the World's best surf breaks </Ptag>
-     <Button primary='true' big='tue' round='true' to='/trips'> Let's GO</Button>
+     <Button primary="true" big="tue" round="true" to='/trips' css={`border-radius: 20px;  width: 50%; margin-top: 20px`}> Let's GO</Button>
     </HeroItems>
     </HeroContent>
 </HeroContainer>

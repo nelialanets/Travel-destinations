@@ -16,7 +16,7 @@ const Header = () => {
       ))}
     </NavMenu>
     <NavBtn>
-      <Button primary='true' round='true' to ='/explore'>Let's GOOOOO!</Button>
+      <Button  to ='/explore' css={`border-radius: 2px; padding: 1%; width: 50%; margin-top: 20px`}>Let's GO</Button>
     </NavBtn>
    </Nav>
   )
