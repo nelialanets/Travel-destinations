@@ -1,53 +1,48 @@
 import React from "react";
 import styled from "styled-components";
 import { useStaticQuery, graphql } from "gatsby";
-import { GatsbyImage, getImage } from "gatsby-plugin-image"
-
+// import Img from 'gatsby-image'
 const Destinations=()=>{
 
-    const data = useStaticQuery(graphql`
-    query{
-        allDestinationsJson{
-            edges {
-              node {
-                alt
-                button
-                name
-                img {
-                  childrenImageSharp {
-                    fluid {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
+  const data = useStaticQuery(graphql`
+  query MyQuery {
+    allDestinationsJson {
+      edges {
+        node {
+          alt
+          button
+          name
+          img {
+            childImageSharp {
+              fluid {
+                src
               }
             }
           }
         }
-    
+      }
+    }
+  }
     `)
 
-function getDestinations(data) {
-const destinationsArr=[]
+// function getDestinations(data) {
+// const destinationsArr=[]
 
-data.allDestinationsJson.edges.forEach((item, index)=>{
-    destinationsArr.push(
-        <div key={index}>
-            <StaticImage  src={item.node.img.childrenImageSharp.fluid.src}
-            fluid={item.node.img.childrenImageSharp.fluid}
-             />
-        </div>
-    )
-})
-  return destinationsArr 
-}
-
-
-
+// data.allDestinationsJson.edges.forEach((item, index)=>{
+//     destinationsArr.push(
+//         <div key={index}>
+//             <Img  src={item.node.img.childrenImageSharp.fluid.src}
+//             fluid={item.node.img.childrenImageSharp.fluid}
+//              />
+//         </div>
+//     )
+// })
+//   return destinationsArr 
+// }
     return(
 <DestinationsContainer>
     <DestinationsHeading>Headind</DestinationsHeading>
-    <DestinationsWrapper>{getDestinations(data)}</DestinationsWrapper>
+    {/* <DestinationsWrapper>{getDestinations(data)}</DestinationsWrapper> */}
 </DestinationsContainer>
 
     )
