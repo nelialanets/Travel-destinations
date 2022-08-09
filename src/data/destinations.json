@@ -24,18 +24,7 @@
         "img":"../images/image4.jpg",
         "name":"Bali",
         "button":"View Destination"
-    },
-
-    {
-        "img":"../images/image5.jpg",
-        "name":"Australia",
-        "button":"View Destination"
-    },
-
-    {
-        "img":"../images/image5.jpg",
-        "name":"Mexico",
-        "button":"View Destination"
     }
+
 
 ]
