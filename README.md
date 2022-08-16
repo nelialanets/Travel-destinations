@@ -3,7 +3,7 @@
 
 ## About
 
-An interactive and mobile responsive app that is designed for surfers and people who would like to explore remote tropical destination around the world.
+An interactive and mobile responsive app that is designed for surfers and people who would like to explore remote tropical destinations around the world.
 
 
 ## Technologies Used:
