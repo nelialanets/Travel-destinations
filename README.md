@@ -13,10 +13,10 @@ Language      | Framework     | API's       | CSS                 |
 JavaScript    | React, Gatsby | Graphql     |   styled components |
 
 ## User Stories
-##AAU (As A User), I want to see current list of distinations around the world.
-##AAU, I will be able to navigate thought the manue/navigations tabs to mome from one page to another
-##AAU, I will be able to search for places using a search bar
-##AAU, I will be able to review comprehensive inforation about a destination place 
+AAU (As A User), I want to see current list of distinations around the world.
+AAU, I will be able to navigate thought the manue/navigations tabs to mome from one page to another
+AAU, I will be able to search for places using a search bar
+AAU, I will be able to review comprehensive inforation about a destination place 
 
 
 
