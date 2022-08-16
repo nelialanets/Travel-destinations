@@ -3,20 +3,20 @@
 
 ## About
 
-An interactive and bobile responcive app that is designed for surfers and people who like to explore remote tropical destination points around the world.
+An interactive and mobile responsive app that is designed for surfers and people who would like to explore remote tropical destination around the world.
 
 
-## Technologies Used
+## Technologies Used:
 
 Language      | Framework     | API's       | CSS                 | 
 ------------- | ------------- |------------ | --------------------|
 JavaScript    | React, Gatsby | Graphql     |   styled components |
 
 ## User Stories
-AAU (As A User), I want to see current list of distinations around the world.
-AAU, I will be able to navigate thought the manue/navigations tabs to mome from one page to another
-AAU, I will be able to search for places using a search bar
-AAU, I will be able to review comprehensive inforation about a destination place 
+##AAU (As A User), I want to see current list of distinations around the world.
+##AAU, I will be able to navigate thought the manue/navigations tabs to mome from one page to another
+##AAU, I will be able to search for places using a search bar
+##AAU, I will be able to review comprehensive inforation about a destination place 
 
 
 
