@@ -1,14 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
 import {GiEarthAmerica} from 'react-icons/gi'
-import {MdAirplanemodeActive, MdTimer} from 'react-icons/gi'
+import {MdAirplanemodeActive, MdTimer} from 'react-icons/md'
 import {FaMoneyCheck} from 'react-icons/fa'
 
 
     const StatsData = [
 
         {
-            icon:(<GiEarthAmerica />),
+            icon:(<GiEarthAmerica  />
+            ),
             title: "Over 100 Destinations",
             desc: "Explore Your Horisonts",
         },
@@ -20,7 +21,7 @@ import {FaMoneyCheck} from 'react-icons/fa'
         {
             icon:(<MdTimer />),
             title: "Fast Support",
-            desc: "Access to over support team 24/7"
+            desc: "Access to over support team 24/7",
         },
         {
             icon:(<FaMoneyCheck />),
@@ -35,7 +36,7 @@ const Stats =() => {
     <Heading> Why US </Heading>
         <Wrapper>
 
-            {StatsData.map((item,index)=>{
+        {StatsData.map((item,index)=>{
                 return(
                     <StatsBox key={index}>
                     <Icon>{item.icon}</Icon>
@@ -45,13 +46,12 @@ const Stats =() => {
                 )
             })}
         </Wrapper>
-  
-
    </StatsComponents>
   )
 }
 
 export default Stats
+
 
 
 const StatsComponents =styled.div`
@@ -61,15 +61,16 @@ color:#000;
 display:flex;
 flex-direction:column;
 justify-content:center;
-padding:4rem calc((100vw-1300)/2)
-
+padding:5rem;
+margin-top: 4%;
+background-color: #FFF5EE;
 `
 const Heading =styled.h1`
+margin-top: 3rem;
 text-aling: center;
 font-size: clamp(1.5 rem, 5vw, 2rem);
 margin-bottom:3rem;
 padding: 0 2rem;
-
 
 `
 const Wrapper =styled.div`
@@ -88,7 +89,21 @@ grid-gap: 10 px;
 }
 
 `
-const StatsBox = styled.div``
-const Icon = styled.div``
-const Title= styled.div``
-const Description= styled.div``
+const StatsBox = styled.div`
+height: 100%;
+width:100%;
+padding: 2rem;
+
+`
+const Icon = styled.div`
+fonst-size:3rem;
+margin-buttom:1rem;
+`
+const Title= styled.p`
+margin-top:2px;
+font-size: clamp(1rem, 2.5vw, 1.5rem);
+margin-bottom"0.5rem
+`
+const Description = styled.p`
+font-size:20px;
+`
