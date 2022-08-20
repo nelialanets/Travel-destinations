@@ -3,10 +3,10 @@
 
 ## About
 
-An interactive and bobile responcive app that is designed for surfers and people who like to explore remote tropical destination points around the world.
+An interactive and mobile responsive app that is designed for surfers and people who would like to explore remote tropical destinations around the world.
 
 
-## Technologies Used
+## Technologies Used:
 
 Language      | Framework     | API's       | CSS                 | 
 ------------- | ------------- |------------ | --------------------|
