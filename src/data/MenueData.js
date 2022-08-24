@@ -3,6 +3,6 @@ export const menuData=[
     {title: 'Trips', link:'/trips'},
     {title: 'Careers', link:'/careers'},
     {title: 'Blog', link:'/blog'},
-    {title: 'Contact', link:'/Contact'},
+    {title: 'Contact', link:'/contact'},
    
 ]

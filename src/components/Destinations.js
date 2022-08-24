@@ -51,11 +51,12 @@ data.allDestinationsJson.edges.forEach((item, index)=>{
   return destinationsArr 
 }
     return(
+      <>
 <DestinationsContainer>
     <DestinationsHeading>{heading}</DestinationsHeading>
     <DestinationsWrapper>{getDestinations(data)}</DestinationsWrapper>
 </DestinationsContainer>
-
+</>
     )
   } 
 
@@ -78,10 +79,10 @@ export default Destinations
  grid-template-columns:repeat(4, 1fr);
  grid-gap: 10px;
  justify-content:center;
- padding: 0 2rem;
- margin-buttom: 5%;
+ padding: 0 1rem;
+ margin-buttom:1%;
  @media acreen and(max-width: 1200px){
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
  }
  
  @media acreen and(max-width: 868px){

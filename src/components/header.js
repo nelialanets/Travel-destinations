@@ -16,7 +16,7 @@ const Header = () => {
       ))}
     </NavMenu>
     <NavBtn>
-      <Button  to ='/explore' css={`border-radius: 2px; padding: 1%; width: 50%; margin-top: 20px`}>Let's GO</Button>
+       <Button  to ='/index' css={`border-radius: 2px; padding: 500%; width: 50%; margin-top: 20px`}>Let Travel!</Button> 
     </NavBtn>
    </Nav>
   )
@@ -50,6 +50,7 @@ cursor: pointer;
 const Bars =styled(FaBars)`
 display:none;
 color:#fff;
+margin:50%
 @media screen and (max-width:768px){
  display:block;
   position: absolute;

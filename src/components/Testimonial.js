@@ -73,6 +73,7 @@ background:#fcfcfc;
 color: #000;
 padding 5rem calc((100vw-1300px)/2)
 height:100%;
+margin-top:-5%;
 `
 const TopLine =styled.p`
 color:black;
