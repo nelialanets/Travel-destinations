@@ -43,7 +43,7 @@ data.allDestinationsJson.edges.forEach((item, index)=>{
                 <ImLocation />
                 <ProductTitle>{item.node.name}</ProductTitle>
               </TextWrap>
-              <Button to ='/trips' css={`position: absolute; top:520px; align-items: center; font-size:14px; color:blue `}>{item.node.button}</Button>
+              <Button to ='/trips' css={`position: absolute;  padding: 8px; top:450px; align-items: center; font-size:14px; color:black; background:white; borderRadius: 15px;`}>{item.node.button}</Button>
              </ProductInfo>
         </ProductCard>
     )

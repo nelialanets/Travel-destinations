@@ -16,7 +16,7 @@ const Header = () => {
       ))}
     </NavMenu>
     <NavBtn>
-       <Button  to ='/index' css={`border-radius: 2px; padding: 500%; width: 50%; margin-top: 20px`}>Let Travel!</Button> 
+        <Button  to ='/index' css={`border-radius: 2px; padding: 500%; color: white;  width: 50%; margin-top: 20px; backGround:black;`}>Let Travel!</Button>  
     </NavBtn>
    </Nav>
   )
@@ -63,7 +63,7 @@ margin:50%
 const NavMenu=styled.div`
 display:flex;
 align-items: center;
-margin-right:1%;
+margin-right:5%;
 @media screen and (max-width:768px){
 display:none;
 `
@@ -75,8 +75,8 @@ margin-right:24px;
 @media screen and (max-width:768px){
   display:none;
 
-
 `
+
 
 
 
